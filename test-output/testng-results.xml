@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-02-08T09:07:52 IST" name="Default suite" finished-at="2022-02-08T09:07:59 IST" duration-ms="7067">
+  <suite started-at="2022-02-25T10:59:57 IST" name="Default suite" finished-at="2022-02-25T11:00:05 IST" duration-ms="8299">
     <groups>
     </groups>
-    <test started-at="2022-02-08T09:07:52 IST" name="Default test" finished-at="2022-02-08T09:07:59 IST" duration-ms="7067">
-      <class name="selenium.Learning.SeleniumLearningProject.Demo">
-        <test-method signature="LoginIn()[pri:0, instance:selenium.Learning.SeleniumLearningProject.Demo@4803b726]" started-at="2022-02-08T09:07:52 IST" name="LoginIn" finished-at="2022-02-08T09:07:59 IST" duration-ms="7006" status="PASS">
+    <test started-at="2022-02-25T10:59:57 IST" name="Default test" finished-at="2022-02-25T11:00:05 IST" duration-ms="8299">
+      <class name="selenium.Learning.SeleniumLearningProject.TakingScreenshot">
+        <test-method signature="testOmayo()[pri:0, instance:selenium.Learning.SeleniumLearningProject.TakingScreenshot@26e356f0]" started-at="2022-02-25T10:59:57 IST" name="testOmayo" finished-at="2022-02-25T11:00:05 IST" duration-ms="8248" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LoginIn -->
-      </class> <!-- selenium.Learning.SeleniumLearningProject.Demo -->
+        </test-method> <!-- testOmayo -->
+      </class> <!-- selenium.Learning.SeleniumLearningProject.TakingScreenshot -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
