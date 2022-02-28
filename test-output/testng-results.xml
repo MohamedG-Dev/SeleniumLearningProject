@@ -1,17 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-02-25T10:59:57 IST" name="Default suite" finished-at="2022-02-25T11:00:05 IST" duration-ms="8299">
+  <suite started-at="2022-02-28T12:01:53 IST" name="Suite" finished-at="2022-02-28T12:02:15 IST" duration-ms="21489">
     <groups>
     </groups>
-    <test started-at="2022-02-25T10:59:57 IST" name="Default test" finished-at="2022-02-25T11:00:05 IST" duration-ms="8299">
-      <class name="selenium.Learning.SeleniumLearningProject.TakingScreenshot">
-        <test-method signature="testOmayo()[pri:0, instance:selenium.Learning.SeleniumLearningProject.TakingScreenshot@26e356f0]" started-at="2022-02-25T10:59:57 IST" name="testOmayo" finished-at="2022-02-25T11:00:05 IST" duration-ms="8248" status="PASS">
+    <test started-at="2022-02-28T12:01:53 IST" name="Test" finished-at="2022-02-28T12:02:15 IST" duration-ms="21489">
+      <class name="selenium.Learning.SeleniumLearningProject.ANTSample">
+        <test-method signature="methodOne()[pri:0, instance:selenium.Learning.SeleniumLearningProject.ANTSample@6253c26]" started-at="2022-02-28T12:01:53 IST" name="methodOne" finished-at="2022-02-28T12:02:02 IST" duration-ms="8921" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testOmayo -->
-      </class> <!-- selenium.Learning.SeleniumLearningProject.TakingScreenshot -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- methodOne -->
+      </class> <!-- selenium.Learning.SeleniumLearningProject.ANTSample -->
+      <class name="selenium.Learning.SeleniumLearningProject.ClassTwo">
+        <test-method signature="methodTwoA()[pri:0, instance:selenium.Learning.SeleniumLearningProject.ClassTwo@4c1909a3]" started-at="2022-02-28T12:02:02 IST" name="methodTwoA" finished-at="2022-02-28T12:02:06 IST" duration-ms="3478" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTwoA -->
+        <test-method signature="methodTwoB()[pri:0, instance:selenium.Learning.SeleniumLearningProject.ClassTwo@4c1909a3]" started-at="2022-02-28T12:02:06 IST" name="methodTwoB" finished-at="2022-02-28T12:02:06 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTwoB -->
+        <test-method signature="methodTwoC()[pri:0, instance:selenium.Learning.SeleniumLearningProject.ClassTwo@4c1909a3]" started-at="2022-02-28T12:02:06 IST" name="methodTwoC" finished-at="2022-02-28T12:02:06 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTwoC -->
+      </class> <!-- selenium.Learning.SeleniumLearningProject.ClassTwo -->
+      <class name="selenium.Learning.SeleniumLearningProject.ClassFour">
+        <test-method signature="methodFourA()[pri:0, instance:selenium.Learning.SeleniumLearningProject.ClassFour@d9345cd]" started-at="2022-02-28T12:02:09 IST" name="methodFourA" finished-at="2022-02-28T12:02:15 IST" duration-ms="5446" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodFourA -->
+        <test-method signature="methodFourB()[pri:0, instance:selenium.Learning.SeleniumLearningProject.ClassFour@d9345cd]" started-at="2022-02-28T12:02:15 IST" name="methodFourB" finished-at="2022-02-28T12:02:15 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodFourB -->
+        <test-method signature="methodFourC()[pri:0, instance:selenium.Learning.SeleniumLearningProject.ClassFour@d9345cd]" started-at="2022-02-28T12:02:15 IST" name="methodFourC" finished-at="2022-02-28T12:02:15 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodFourC -->
+      </class> <!-- selenium.Learning.SeleniumLearningProject.ClassFour -->
+      <class name="selenium.Learning.SeleniumLearningProject.ClassThree">
+        <test-method signature="methodThreeA()[pri:0, instance:selenium.Learning.SeleniumLearningProject.ClassThree@428640fa]" started-at="2022-02-28T12:02:06 IST" name="methodThreeA" finished-at="2022-02-28T12:02:09 IST" duration-ms="3528" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodThreeA -->
+        <test-method signature="methodThreeB()[pri:0, instance:selenium.Learning.SeleniumLearningProject.ClassThree@428640fa]" started-at="2022-02-28T12:02:09 IST" name="methodThreeB" finished-at="2022-02-28T12:02:09 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodThreeB -->
+        <test-method signature="methodThreeC()[pri:0, instance:selenium.Learning.SeleniumLearningProject.ClassThree@428640fa]" started-at="2022-02-28T12:02:09 IST" name="methodThreeC" finished-at="2022-02-28T12:02:09 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodThreeC -->
+      </class> <!-- selenium.Learning.SeleniumLearningProject.ClassThree -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<project name="SeleniumLearningProject" basedir="." default="run">
+
+	<!-- 'init' target for Initializing Variables -->
+	<target name="init">
+		<property name="bin" value="${basedir}/bin"/>
+		<property name="lib" value="${basedir}/Maven Dependencies"/>
+		<property name="src" value="${basedir}/src"/>
+		<property name="report" value="${basedir}/report"/>
+	</target>
+
+	<!-- 'clean' target -->
+	<target name="clean" depends="init">
+		<echo message="Deleting existing report folder" />
+		<delete dir="${report}" />
+		<echo message="Deleting existing bin folder" />
+		<delete dir="${bin}" />
+		<echo message="Creating empty bin folder" />
+		<mkdir dir="${bin}" />
+	</target>
+
+	<!-- 'compile' target -->
+	<target name="compile" depends="clean">
+		<javac srcdir="${src}" destdir="${bin}" >
+			<classpath>
+				<pathelement path="${bin}"></pathelement>
+				<fileset dir="${lib}">
+					<include name="**/*.jar"/>
+				</fileset>
+			</classpath>
+		</javac>
+	</target>
+
+	<!-- ======Set the classpath ====-->
+	<path id="classpath" >
+		<pathelement path="bin" ></pathelement>
+		<fileset dir="Maven Dependencies" >
+			<include name="**/*.jar" />
+		</fileset>
+	</path>
+
+	<!-- 'run' target -->
+	<target name="run" depends="compile">
+		<mkdir dir="${report}" />
+		<taskdef name="testng" classname="org.testng.TestNGAntTask">
+			<classpath location="${lib}/testng-7.5.jar" />
+		</taskdef>
+		<testng outputdir="${report}" classpathref="classpath" useDefaultListeners="true">
+			<xmlfileset dir="${src}" includes="testng.xml" />
+		</testng>
+	</target>
+
+</project>

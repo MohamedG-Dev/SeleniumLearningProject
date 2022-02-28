@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+  <test name="Test">
+    <classes>
+      <class name="selenium.Learning.SeleniumLearningProject.ANTSample"/>
+      <class name="selenium.Learning.SeleniumLearningProject.ClassTwo"/>
+      <class name="selenium.Learning.SeleniumLearningProject.ClassThree"/>
+      <class name="selenium.Learning.SeleniumLearningProject.ClassFour"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
