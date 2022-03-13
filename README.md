@@ -2,6 +2,7 @@
 This is a Part-2 of Selenium Frameworks Concepts
 
 # Selenium Framework Concepts
+2. B. Apache POI - Reading Excel Files
 5. Maven
 6. Extent Reports
 7. Taking Screenshots
