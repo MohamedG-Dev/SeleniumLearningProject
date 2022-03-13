@@ -16,7 +16,7 @@ public class HomePage extends BasePage{
 	}
 
 	// WebElements of Home Page
-	@FindBy(css = "span[class^='_logo-books']")
+	@FindBy(css = "span[class^='_logo-calendar']")
 	public WebElement Calendar;
 
 	@FindBy(css = "span[class^='_logo-chat']")
